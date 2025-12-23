@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>sort the numbers and strings</title>
+<script language="javascript"> 
+function sorting(){
+var l,i;
+var string1=["Ragul","Karthick Raja","Venkatesh","PardipJha","Aravindhan"]; 
+l=string1.length;
+document.write("Before Sorting"+"<br>"); 
+for(i=0;i<=l-1;i++) 
+document.write(string1[i]+"<br>"); 
+string1.sort();
+document.write("<br><br>"+"After Sorting"+"<br>"); 
+for(i=0;i<=l-1;i++) 
+document.write(string1[i]+"<br>");
+}
+</script>
+</head>
+<body>
+<input type="button" value="sorting" onclick="sorting()">
+</body>
+</html>
